@@ -5,14 +5,14 @@ cask "shogunai" do
   # jpackage versiona el .dmg de macOS como "1.<minor>.<patch>" en vez del tag
   # real "0.<minor>.<patch>" (ver design.md de homebrew-cask-distribution).
   dmg_version = "1." + version.split(".", 2).last
-  url "https://github.com/LuxionServer/ShogunAi/releases/download/v#{version}/app.luxion.shogunai-#{dmg_version}.dmg"
+  url "https://github.com/LuxionServer/ShogunAi/releases/download/v#{version}/ShogunAi-#{dmg_version}.dmg"
   name "ShogunAi"
   desc "Desktop orchestrator for isolated Git worktrees with automatic secrets provisioning"
   homepage "https://github.com/LuxionServer/ShogunAi"
 
   auto_updates false
 
-  app "app.luxion.shogunai.app", target: "ShogunAi.app"
+  app "ShogunAi.app"
 
   caveats <<~EOS
     ShogunAi is not notarized by Apple. If macOS blocks it on first launch
