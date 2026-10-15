@@ -1,6 +1,6 @@
 cask "shogunai" do
-  version "0.6.1"
-  sha256 "44fe9ec88f9fb8e4dcbad404c9b11ec3ef0c5b8803c0e3a12a278ef8a239c5fb"
+  version "0.6.2"
+  sha256 "65c815e924d79798d63833727aa5be48692a36ae318bb6c9ea91aaaaf7a72cc9"
 
   # jpackage versiona el .dmg de macOS como "1.<minor>.<patch>" en vez del tag
   # real "0.<minor>.<patch>" (ver design.md de homebrew-cask-distribution).
