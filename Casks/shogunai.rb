@@ -1,9 +1,9 @@
 cask "shogunai" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.8.8"
-  sha256 arm:   "fa750d59a38951cbae904a040961d560604b16af348d86101016219c6f58e380",
-         intel: "12034dd0b318861784f13368416ce5fb9ee6f8c0f2273bd32cf1c24cb81a895e"
+  version "0.8.9"
+  sha256 arm:   "d9fefd24d1dc8b0b1fd2032d6a24c2093bb32b3f954a823dd448502ba8d6d7fd",
+         intel: "c70df8b7691169fcd8cc59487a715442dde19b62826c670c99dcfef5ea7962dc"
 
   url "https://github.com/LuxionServer/ShogunAi/releases/download/v#{version}/ShogunAi-#{version}-#{arch}.dmg"
   name "ShogunAi"
